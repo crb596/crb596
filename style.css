@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 #header{
     height:10%;
@@ -57,4 +58,12 @@ body{
     height:100%;
     float: right;
     border-radius: 50%;
+}
+.actorName{
+    font-weight: 700;
+    font-size: 5em;
+}
+.actorBio{
+    font-weight: 400;
+    font-size: 3em;
 }

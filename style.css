@@ -60,10 +60,15 @@ body{
     border-radius: 50%;
 }
 .actorName{
+    margin: 0;
+    margin-top: 10%;
     font-weight: 700;
-    font-size: 5vh;
+    font-size: 4vh;
+    font-style:bold;
 }
 .actorBio{
+    margin: 0;
+    margin-top: 10%;
     font-weight: 400;
-    font-size: 3vh;
+    font-size: 2vh;
 }

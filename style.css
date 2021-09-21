@@ -48,10 +48,9 @@ body{
     float: left;
 }
 .profilePicContainer{
-    top: 0;
-    margin-left: 10%;
-    padding-top: 10%;
-    width: 10%;
+    top: 12.5%;
+    margin-right: 10%;
+    height: 75%;
     background-color: blue;
     position: relative;
 }

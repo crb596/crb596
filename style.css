@@ -61,7 +61,7 @@ body{
 }
 .actorName{
     margin: 0;
-    margin-top: 10%;
+    margin-top: 3%;
     font-weight: 700;
     font-size: 4vh;
     font-style: bold;
@@ -69,7 +69,7 @@ body{
 }
 .actorBio{
     margin: 0;
-    margin-top: 10%;
+    margin-top: 1%;
     font-weight: 400;
     font-size: 2vh;
     margin-right:10%;

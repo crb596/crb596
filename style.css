@@ -1,7 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 #header{
     height:10%;
     width: 100%;
     background-color:gray;
+    position: -webkit-sticky; /* Safari (from W3 schools)*/
+    position: sticky;
     top: 0;
 }
 #blockOne{

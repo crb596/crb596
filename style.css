@@ -39,11 +39,13 @@ body{
     width:20%;
     height:100%;
     background-color: gray;
+    float: left;
 }
 .actorInfoColumn{
     width: 80%;
     height:100%;
     background-color: purple;
+    float: left;
 }
 .profilePicContainer{
     top: 0;

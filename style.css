@@ -6,7 +6,7 @@ body{
 #header{
     height:10%;
     width: 100%;
-    background-color:gray;
+    background-color:#151515;
     position: -webkit-sticky; /* Safari (from W3 schools)*/
     position: sticky;
     top: 0;

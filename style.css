@@ -35,17 +35,19 @@ body{
     height: 25%;
     width: 100%;
 }
+.profilePicColumn{
+    width:20%;
+    background-color: gray;
+}
+.actorInfoColumn{
+    width: 80%;
+    background-color: purple;
+}
 .profilePicContainer{
     top: 0;
     margin-left: 10%;
-    margin-top: 10%;
+    padding-top: 10%;
     width: 10%;
-    background-color:blue;
-}
-.profilePic{
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    display: inline-block;
+    background-color: blue;
+    position: relative;
 }

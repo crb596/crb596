@@ -37,10 +37,12 @@ body{
 }
 .profilePicColumn{
     width:20%;
+    height:100%;
     background-color: gray;
 }
 .actorInfoColumn{
     width: 80%;
+    height:100%;
     background-color: purple;
 }
 .profilePicContainer{

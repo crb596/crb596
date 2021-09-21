@@ -51,9 +51,10 @@ body{
     top: 12.5%;
     margin-right: 10%;
     height: 75%;
-    background-color: blue;
     position: relative;
 }
 .profilePic{
     height:100%;
+    float: right;
+    border-radius: 50%;
 }

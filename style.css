@@ -94,7 +94,7 @@ li div {
 li div:hover:not(.active) {
     background-color: #D6D6D6;
 }
-li img:hover:not(.active) {
+li #homeImage:hover:not(.active) {
     background-color: #D6D6D6;
 }
 .active {

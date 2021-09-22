@@ -46,6 +46,16 @@ body{
     background-image: linear-gradient(to right, rgba(0,0,0,1),rgba(0,0,0,.8),rgba(0,0,0,0));
 }
 
+#videoContainer{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 30%;
+    background-color:red;
+}
+
 .actor{
     height: 25%;
     width: 100%;

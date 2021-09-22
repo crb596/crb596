@@ -1,11 +1,14 @@
 function move(location = "home"){
     //Reassign active
     document.getElementsByClassName("active").classList.remove("active");
+    img.source = "home.png" //Set default
 
     console.log(document.body.scrollTop);
     if(location == "home"){
         document.body.scrollTop = 0;
-        document.getElementById("homeImage").classList.add("active");
+        let img = document.getElementById("homeImage");
+        img.classList.add("active");
+        img.source = "homeactive.png"
     }
     else if(location == "film"){
         document.body.scrollTop = parseInt(window.innerHeight);

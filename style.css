@@ -34,7 +34,8 @@ body{
 }
 #blockFive{
     height: 90%;
-    background-color: orange;
+    background-color: #6C6C6C;
+    text-align: center;
 }
 
 .leftGradient{
@@ -134,5 +135,4 @@ body{
 }
 #moneyTwoText{
     width:100%;
-    text-align: center;
 }

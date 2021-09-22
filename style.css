@@ -8,7 +8,7 @@ body{
     background-size: cover;
 }
 #header{
-    height:10%;
+    height:100px;
     width: 100%;
     background-color:#151515;
     position: -webkit-sticky; /* Safari (from W3 schools)*/
@@ -20,11 +20,11 @@ body{
     height: 100%;
 }
 #blockTwo{
-    height: 90%;
+    height: calc(100%-100px);
     position: relative;
 }
 #blockThree{
-    height: 90%;
+    height: calc(100%-100px);
     background-color: #6C6C6C;
 }
 #blockFour{
@@ -33,7 +33,7 @@ body{
     position: relative;
 }
 #blockFive{
-    height: 90%;
+    height: calc(100%-100px);
     background-color: #6C6C6C;
     text-align: center;
 }
@@ -85,7 +85,7 @@ ul {
     display: block;
     color: #707070;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20% 20%;
     text-decoration: none;
   }
   

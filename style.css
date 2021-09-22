@@ -46,6 +46,26 @@ body{
     background-image: linear-gradient(to right, rgba(0,0,0,1),rgba(0,0,0,.8),rgba(0,0,0,0));
 }
 
+#title{
+    text-align:center;
+    width:40%;
+    top:30%;
+    left: 0;
+    color:white;
+    font-weight: 700;
+    font-size: 6vh;
+    font-style: bold;
+}
+#description{
+    text-align:center;
+    width:40%;
+    top:40%;
+    left: 0;
+    color:white;
+    font-weight: 400;
+    font-size: 3vh;
+    margin-right:10%;
+}
 
 .wrappert {
     height: 100%; 

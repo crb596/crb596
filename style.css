@@ -16,9 +16,6 @@ body{
     top: 0;
     z-index:100;
 }
-#homeImage{
-    height:80%;
-}
 #blockOne{
     height: 100%;
 }
@@ -73,6 +70,11 @@ body{
 }
 
 
+#homeImage{
+    height:80%;
+    top:10%;
+    padding-left:20px;
+}
 ul {
     list-style-type: none;
     margin: 0;

@@ -250,9 +250,14 @@ li #homeImage:hover:not(.active) {
         height: calc(200% - 100px);
     }
     .profilePicColumn{
-        width:100%;
+        width: 100%;
+        height: 50%;
     }
     .actorInfoColumn{
         width: 100%;
+        height: 50%;
+    }
+    .quoteWords{
+        font-size: 3vh;
     }
 }

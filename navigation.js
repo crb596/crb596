@@ -50,14 +50,14 @@ function scrollUpdate(){
         img.src = "home.png" //Set inactive
     }
     //Cast
-    else if(document.body.scrollTop < (3 * window.innerHeight)-100){
+    else if(document.body.scrollTop < (3 * window.innerHeight)-2*100){
         document.getElementsByClassName("active")[0].classList.remove("active");
         document.getElementById("cast").classList.add("active");
         let img = document.getElementById("homeImage");
         img.src = "home.png" //Set inactive
     }
     //Reviews
-    else if(document.body.scrollTop < (4 * window.innerHeight)-2*100){
+    else if(document.body.scrollTop < (4 * window.innerHeight)-3*100){
         document.getElementsByClassName("active")[0].classList.remove("active");
         document.getElementById("reviews").classList.add("active");
         let img = document.getElementById("homeImage");

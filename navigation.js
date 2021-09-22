@@ -43,7 +43,7 @@ function scrollUpdate(){
         img.src = "homeactive.png" //Set active
     }
     //Film
-    else if(document.body.scrollTop < 2 * window.innerHeight){
+    else if(document.body.scrollTop < (2 * window.innerHeight)-100){
         document.getElementsByClassName("active")[0].classList.remove("active");
         document.getElementById("film").classList.add("active");
         let img = document.getElementById("homeImage");

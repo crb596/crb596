@@ -131,8 +131,12 @@ body{
 
 #moneyTwoImage{
     height:60%;
-    padding-top:20%;
+    padding-top:10%;
 }
 #moneyTwoText{
     width:100%;
+    color: white;
+    font-weight: 700;
+    font-size: 6vh;
+    font-style: bold;
 }

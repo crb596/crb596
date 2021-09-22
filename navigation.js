@@ -34,7 +34,7 @@ function scrollUpdate(){
     // console.log(document.body.scrollTop + " " + (window.innerHeight + window.innerHeight * 0.9))
     let shift = 100; //Pixels to shift cutoff by
     //Home section
-    console.log(document.body.scrollTop.toString() + ", " + (window.innerHeight).toString())
+    console.log(document.body.scrollTop.toString() + ", " + ((3 * window.innerHeight)-2*100).toString())
     console.log(document.body.scrollTop < window.innerHeight)
     if(document.body.scrollTop < window.innerHeight){
         document.getElementsByClassName("active")[0].classList.remove("active");

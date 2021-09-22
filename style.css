@@ -75,7 +75,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
   }
   
   li {
@@ -84,18 +83,18 @@ ul {
   
   li a {
     display: block;
-    color: white;
+    color: #707070;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
   li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #D6D6D6;
   }
   
   .active {
-    background-color: #04AA6D;
+    color: #D6D6D6;
   }
 
 

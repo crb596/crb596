@@ -31,10 +31,12 @@ function move(location){
 }
 
 function scrollUpdate(){
-    console.log(document.body.scrollTop + " " + (window.innerHeight + window.innerHeight * 0.9))
+    // console.log(document.body.scrollTop + " " + (window.innerHeight + window.innerHeight * 0.9))
     console.log(window.innerHeight)
     let shift = 100; //Pixels to shift cutoff by
     //Home section
+    console.log(document.body.scrollTop + ", " + window.innerHeight - 100)
+    console.log(document.body.scrollTop < window.innerHeight - 100)
     if(document.body.scrollTop < window.innerHeight - 100){
         document.getElementsByClassName("active")[0].classList.remove("active");
         let img = document.getElementById("homeImage");

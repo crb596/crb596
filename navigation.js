@@ -20,11 +20,11 @@ function move(location){
         document.getElementById("cast").classList.add("active");
     }
     else if(location == "reviews"){
-        document.body.scrollTop = parseInt((3 * window.innerHeight)-100);
+        document.body.scrollTop = parseInt((3 * window.innerHeight)-2*100);
         document.getElementById("reviews").classList.add("active");
     }
     else if(location == "coming soon"){
-        document.body.scrollTop = parseInt((3 * window.innerHeight)-2*100);
+        document.body.scrollTop = parseInt((4 * window.innerHeight)-3*100);
         document.getElementById("comingSoon").classList.add("active");
     }
 

@@ -31,6 +31,7 @@ function move(location){
 }
 
 function scrollUpdate(){
+    console.log(document.body.scrollTop + " " + document.body.scrollTop < window.innerHeight + window.innerHeight * 0.9)
     let shift = 100; //Pixels to shift cutoff by
     //Home section
     if(document.body.scrollTop < window.innerHeight + shift){

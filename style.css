@@ -28,12 +28,12 @@ body{
     background-color: #6C6C6C;
 }
 #blockFour{
-    height: 90%;
+    height: calc(100% - 100px);
     background-color: #6C6C6C;
     position: relative;
 }
 #blockFive{
-    height: calc(90% - 100px);
+    height: calc(100% - 100px);
     background-color: #6C6C6C;
     text-align: center;
 }

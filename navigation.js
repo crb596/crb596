@@ -5,7 +5,6 @@ function move(location = "home"){
     let img = document.getElementById("homeImage");
     img.source = "home.png" //Set default
 
-    console.log(document.body.scrollTop);
     if(location == "home"){
         document.body.scrollTop = 0;
         img.classList.add("active");
@@ -28,4 +27,8 @@ function move(location = "home"){
         document.getElementById("comingSoon").classList.add("active");
     }
 
+}
+
+function scrollUpdate(){
+    console.log(document.body.scrollTop)
 }

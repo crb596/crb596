@@ -235,4 +235,29 @@ li #homeImage:hover:not(.active) {
     #header{
         display: none;
     }
+    #title{
+        text-align:center;
+        width:100%;
+        top:30%;
+        left: 0;
+        color:white;
+        font-weight: 900;
+        font-size: 6vh;
+        position:absolute;
+        font-family: 'Anton', sans-serif;
+    }
+    #description{
+        text-align:center;
+        width:100%;
+        top:40%;
+        left: 0;
+        color:white;
+        font-weight: 400;
+        font-size: 3vh;
+        margin-left:5%;
+        position:absolute;
+    }
+    .leftGradient{
+        background-image: linear-gradient(to right, rgba(0,0,0,1),rgba(0,0,0,.8),rgba(0,0,0,1));
+    }
 }

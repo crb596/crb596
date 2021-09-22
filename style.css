@@ -118,7 +118,6 @@ li #homeImage:hover:not(.active) {
     display:inline-block;
     position:relative;
     width: 50%;
-    /* margin-left: 10%; */
 }
 #videoBox{
     margin-top:56.25%; /* 16/9 */
@@ -243,5 +242,14 @@ li #homeImage:hover:not(.active) {
     }
     .leftGradient{
         background-image: linear-gradient(to right, rgba(0,0,0,1),rgba(0,0,0,.5),rgba(0,0,0,1));
+    }
+    #videoContainer{
+        width: 70%;
+    }
+    .profilePicColumn{
+        width:100%;
+    }
+    .actorInfoColumn{
+        width: 100%;
     }
 }

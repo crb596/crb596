@@ -260,6 +260,9 @@ li #homeImage:hover:not(.active) {
     .profilePicContainer{
         text-align: center;
     }
+    .profilePic{
+        float: none;
+    }
     .actorInfoColumn{
         text-align: center;
     }

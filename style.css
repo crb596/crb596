@@ -50,18 +50,18 @@ body{
 .wrappert {
     height: 100%; 
     width: 100%;
-   display: table;    
-   }
-   .wrapper {
-       height: 100%;
-       vertical-align: middle;
-       display: table-cell;
-       text-align: center;
-   }
+    display: table;    
+}
+.wrapper {
+    height: 100%;
+    vertical-align: middle;
+    display: table-cell;
+}
 #videoContainer{
     display:inline-block;
     position:relative;
     width: 30%;
+    margin-left: 10%;
 }
 #videoBox{
     margin-top:56.25%; /* 16/9 */

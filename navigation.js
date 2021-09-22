@@ -1,13 +1,13 @@
 function move(location = "home"){
     //Reassign active
-    console.log(document.getElementsByClassName("active"));
-    // .classList.remove("active");
+    document.getElementsByClassName("active")[0].classList.remove("active");
+    
+    let img = document.getElementById("homeImage");
     img.source = "home.png" //Set default
 
     console.log(document.body.scrollTop);
     if(location == "home"){
         document.body.scrollTop = 0;
-        let img = document.getElementById("homeImage");
         img.classList.add("active");
         img.source = "homeactive.png"
     }

@@ -110,4 +110,6 @@ body{
 .quoteAuthor{
     font-weight: 400;
     font-size: 2vh;
+    bottom:5%;
+    right:5%;
 }

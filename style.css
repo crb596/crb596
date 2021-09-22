@@ -47,6 +47,17 @@ body{
 }
 
 
+.wrappert {
+    height: 100%; 
+    width: 100%;
+   display: table;    
+   }
+   .wrapper {
+       height: 100%;
+       vertical-align: middle;
+       display: table-cell;
+       text-align: center;
+   }
 #videoContainer{
     display:inline-block;
     position:relative;

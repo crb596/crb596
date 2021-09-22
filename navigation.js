@@ -1,6 +1,7 @@
 function move(location = "home"){
     //Reassign active
-    document.getElementsByClassName("active").classList.remove("active");
+    console.log(document.getElementsByClassName("active"));
+    // .classList.remove("active");
     img.source = "home.png" //Set default
 
     console.log(document.body.scrollTop);

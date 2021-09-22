@@ -101,6 +101,8 @@ body{
 }
 
 .quoteWords{
+    width: 100%;
+    background-color:red;
     font-weight: 700;
     font-size: 4vh;
     font-style: italic;

@@ -247,7 +247,7 @@ li #homeImage:hover:not(.active) {
         width: 70%;
     }
     #blockThree{
-        height: calc(200% - 100px);
+        height: 200%;
     }
     .profilePicColumn{
         width: 100%;
@@ -256,6 +256,15 @@ li #homeImage:hover:not(.active) {
     .actorInfoColumn{
         width: 100%;
         height: 50%;
+    }
+    .profilePicContainer{
+        text-align: center;
+    }
+    .actorInfo{
+        text-align: center;
+    }
+    .actorBio{
+        text-align: center;
     }
     .quoteWords{
         font-size: 3vh;

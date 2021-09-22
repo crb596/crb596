@@ -242,6 +242,6 @@ li #homeImage:hover:not(.active) {
         width:90%;
     }
     .leftGradient{
-        background-image: linear-gradient(to right, rgba(0,0,0,1),rgba(0,0,0,.8),rgba(0,0,0,1));
+        background-image: linear-gradient(to right, rgba(0,0,0,1),rgba(0,0,0,.5),rgba(0,0,0,1));
     }
 }

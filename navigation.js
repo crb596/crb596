@@ -1,4 +1,4 @@
-function move(){
+function move(location){
     //Reassign active
     document.getElementsByClassName("active")[0].classList.remove("active");
     

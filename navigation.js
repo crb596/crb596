@@ -35,28 +35,28 @@ function scrollUpdate(){
     console.log(window.innerHeight)
     let shift = 100; //Pixels to shift cutoff by
     //Home section
-    if(document.body.scrollTop < window.innerHeight + shift){
+    if(document.body.scrollTop < window.innerHeight - shift){
         document.getElementsByClassName("active")[0].classList.remove("active");
         let img = document.getElementById("homeImage");
         img.classList.add("active");
         img.src = "homeactive.png" //Set active
     }
     //Film
-    else if(document.body.scrollTop < window.innerHeight + window.innerHeight * 0.9 - 2 * shift){
+    else if(document.body.scrollTop < 2 * window.innerHeight - shift){
         document.getElementsByClassName("active")[0].classList.remove("active");
         document.getElementById("film").classList.add("active");
         let img = document.getElementById("homeImage");
         img.src = "home.png" //Set inactive
     }
     //Cast
-    else if(document.body.scrollTop < window.innerHeight + window.innerHeight * 0.9 * 2 - shift){
+    else if(document.body.scrollTop < 2 * window.innerHeight + window.innerHeight * 0.9 - shift){
         document.getElementsByClassName("active")[0].classList.remove("active");
         document.getElementById("cast").classList.add("active");
         let img = document.getElementById("homeImage");
         img.src = "home.png" //Set inactive
     }
     //Reviews
-    else if(document.body.scrollTop < window.innerHeight * 2 + window.innerHeight * 0.9 * 2 - shift){
+    else if(document.body.scrollTop < 3 * window.innerHeight + window.innerHeight * 0.9 - shift){
         document.getElementsByClassName("active")[0].classList.remove("active");
         document.getElementById("reviews").classList.add("active");
         let img = document.getElementById("homeImage");

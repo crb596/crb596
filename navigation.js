@@ -33,29 +33,24 @@ function scrollUpdate(){
     let shift = 100; //Pixels to shift cutoff by
     //Home section
     if(document.body.scrollTop < window.innerHeight + shift){
-        console.log("home")
         let img = document.getElementById("homeImage");
         img.source = "homeactive.png" //Set default
 
     }
     //Film
     else if(document.body.scrollTop < window.innerHeight + window.innerHeight * 0.9 + shift){
-        console.log("film");
         document.getElementById("film").classList.add("active");
     }
     //Cast
     else if(document.body.scrollTop < window.innerHeight + window.innerHeight * 0.9 * 2 + shift){
-        console.log("cast")
         document.getElementById("cast").classList.add("active");
     }
     //Reviews
     else if(document.body.scrollTop < window.innerHeight * 2 + window.innerHeight * 0.9 * 2 + shift){
-        console.log("reviews")
         document.getElementById("reviews").classList.add("active");
     }
     //Coming Soon
     else{
-        console.log("coming soon")
         document.getElementById("comingSoon").classList.add("active");
     }
 }

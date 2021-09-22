@@ -57,7 +57,7 @@ function scrollUpdate(){
         img.src = "home.png" //Set inactive
     }
     //Reviews
-    else if(document.body.scrollTop < (3 * window.innerHeight)-100){
+    else if(document.body.scrollTop < (3 * window.innerHeight)-2*100){
         document.getElementsByClassName("active")[0].classList.remove("active");
         document.getElementById("reviews").classList.add("active");
         let img = document.getElementById("homeImage");

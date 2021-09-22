@@ -10,6 +10,7 @@ body{
     position: -webkit-sticky; /* Safari (from W3 schools)*/
     position: sticky;
     top: 0;
+    z-index:100;
 }
 #blockOne{
     height: 100%;
@@ -26,6 +27,7 @@ body{
 #blockFour{
     height: 90%;
     background-color: blue;
+    position: relative;
 }
 #blockFive{
     height: 90%;
@@ -81,10 +83,10 @@ body{
     position: absolute;
 }
 .left{
-    left: 10%;
+    left: 7%;
 }
 .right{
-    right: 10%;
+    right: 7%;
 }
 .top{
     top: 10%

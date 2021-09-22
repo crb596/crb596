@@ -260,10 +260,7 @@ li #homeImage:hover:not(.active) {
     .profilePicContainer{
         text-align: center;
     }
-    .actorInfo{
-        text-align: center;
-    }
-    .actorBio{
+    .actorInfoColumn{
         text-align: center;
     }
     .quoteWords{

@@ -72,3 +72,16 @@ body{
     font-size: 2vh;
     margin-right:10%;
 }
+
+.quote{
+    width:40%;
+    height: 30%;
+    border-radius: 10%;
+    background-color: white;
+}
+.left{
+    left: 10%;
+}
+.right{
+    right: 10%;
+}

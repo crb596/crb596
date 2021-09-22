@@ -12,7 +12,7 @@ function move(location = "home"){
     else if(location == "reviews"){
         document.body.scrollTop = parseInt(window.innerHeight + window.innerHeight * 0.9 * 2);
     }
-    else if(location == "comingsoon"){
+    else if(location == "coming soon"){
         document.body.scrollTop = parseInt(window.innerHeight * 2 + window.innerHeight * 0.9 * 2);
     }
 }

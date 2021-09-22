@@ -46,17 +46,21 @@ body{
     background-image: linear-gradient(to right, rgba(0,0,0,1),rgba(0,0,0,.8),rgba(0,0,0,0));
 }
 
-#videoContainer{
+
+#videoPosition{
     margin: 0;
     position: absolute;
     top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#videoContainer{
+    display:inline-block;
+    position:relative;
     width: 30%;
-    background-color:red;
 }
 #videoBox{
-    margin-top:30%;
+    margin-top:56.25%; /* 16/9 */
 }
 #video{
     position: absolute;

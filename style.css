@@ -34,6 +34,7 @@ body{
 }
 #blockFive{
     height: calc(100% - 100px);
+    position: relative;
     background-color: #6C6C6C;
     text-align: center;
 }
@@ -214,9 +215,12 @@ li #homeImage:hover:not(.active) {
     right:10%;
 }
 
-#moneyTwoImage{
+#moneyTwoPoster{
     height:60%;
     padding-top:10%;
+}
+#moneyTwoImage{
+    height:100%;
 }
 #moneyTwoText{
     width:100%;

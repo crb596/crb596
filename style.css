@@ -246,6 +246,9 @@ li #homeImage:hover:not(.active) {
     #videoContainer{
         width: 70%;
     }
+    #blockThree{
+        height: calc(200% - 100px);
+    }
     .profilePicColumn{
         width:100%;
     }

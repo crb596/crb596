@@ -9,7 +9,7 @@ function move(location = "home"){
     if(location == "home"){
         document.body.scrollTop = 0;
         img.classList.add("active");
-        img.source = "homeactive.png"
+        img.src = "homeactive.png"
     }
     else if(location == "film"){
         document.body.scrollTop = parseInt(window.innerHeight);

@@ -20,11 +20,11 @@ body{
     height: 100%;
 }
 #blockTwo{
-    height: calc(100%-100px);
+    height: calc(100% - 100px);
     position: relative;
 }
 #blockThree{
-    height: calc(100%-100px);
+    height: calc(100% - 100px);
     background-color: #6C6C6C;
 }
 #blockFour{
@@ -33,7 +33,7 @@ body{
     position: relative;
 }
 #blockFive{
-    height: calc(100%-100px);
+    height: calc(100% - 100px);
     background-color: #6C6C6C;
     text-align: center;
 }

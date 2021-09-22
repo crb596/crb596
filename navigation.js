@@ -31,4 +31,24 @@ function move(location = "home"){
 
 function scrollUpdate(){
     console.log(document.body.scrollTop)
+    //Home section
+    if(document.body.scrollTop < window.innerHeight){
+        console.log("home")
+    }
+    //Film
+    else if(document.body.scrollTop < window.innerHeight + window.innerHeight * 0.9){
+        console.log("film")
+    }
+    //Cast
+    else if(document.body.scrollTop < window.innerHeight + window.innerHeight * 0.9 * 2){
+        console.log("cast")
+    }
+    //Reviews
+    else if(document.body.scrollTop < window.innerHeight * 2 + window.innerHeight * 0.9 * 2){
+        console.log("reviews")
+    }
+    //Coming Soon
+    else{
+        console.log("coming soon")
+    }
 }

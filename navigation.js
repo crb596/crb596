@@ -11,6 +11,7 @@ function move(){
         img.src = "homeactive.png"
     }
     else if(location == "film"){
+        console.log("ran")
         document.body.scrollTop = parseInt(window.innerHeight);
         document.getElementById("film").classList.add("active");
     }

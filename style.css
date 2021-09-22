@@ -55,6 +55,7 @@ body{
     font-weight: 700;
     font-size: 6vh;
     font-style: bold;
+    position:absolute;
 }
 #description{
     text-align:center;
@@ -65,6 +66,7 @@ body{
     font-weight: 400;
     font-size: 3vh;
     margin-right:10%;
+    position:absolute;
 }
 
 .wrappert {

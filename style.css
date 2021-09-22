@@ -84,7 +84,7 @@ ul {
     float: left;
   }
   
-  li a {
+  li div {
     display: block;
     color: #707070;
     text-align: center;
@@ -92,7 +92,7 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
+  li div:hover:not(.active) {
     background-color: #D6D6D6;
   }
   

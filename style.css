@@ -55,16 +55,17 @@ body{
     font-weight: 900;
     font-size: 6vh;
     position:absolute;
+    font-family: 'Anton', sans-serif;
 }
 #description{
     text-align:center;
-    width:40%;
+    width:30%;
     top:40%;
     left: 0;
     color:white;
     font-weight: 400;
     font-size: 3vh;
-    margin-right:10%;
+    margin-left:10%;
     position:absolute;
 }
 

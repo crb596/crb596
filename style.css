@@ -152,6 +152,7 @@ li #homeImage:hover:not(.active) {
     height: 25%;
     width: 100%;
 }
+/* Divide into two columns */
 .profilePicColumn{
     width:20%;
     height:100%;
@@ -174,6 +175,7 @@ li #homeImage:hover:not(.active) {
     float: right;
     border-radius: 50%;
 }
+/*Bigger actor name*/
 .actorName{
     margin: 0;
     margin-top: 3%;
@@ -182,6 +184,7 @@ li #homeImage:hover:not(.active) {
     font-style: bold;
     margin-right:10%;
 }
+/*Smaller actor bio*/
 .actorBio{
     margin: 0;
     margin-top: 1%;
@@ -199,6 +202,7 @@ li #homeImage:hover:not(.active) {
     color:black;
     position: absolute;
 }
+/* Positioning of quotes */
 .left{
     left: 7%;
 }
@@ -214,7 +218,7 @@ li #homeImage:hover:not(.active) {
 .bottom{
     bottom: 10%;
 }
-
+/* Bigger words in quotes */
 .quoteWords{
     width: 80%;
     margin-left:10%;
@@ -224,6 +228,7 @@ li #homeImage:hover:not(.active) {
     font-size: 4vh;
     font-style: italic;
 }
+/* Author name */
 .quoteAuthor{
     position:absolute;
     font-weight: 400;
@@ -256,15 +261,18 @@ li #homeImage:hover:not(.active) {
     #header{
         display: none;
     }
+    /* Make go all the way across*/
     #title{
         width:100%;
     }
     #description{
         width:90%;
     }
+    /* Change gradient for mobile*/
     .leftGradient{
         background-image: linear-gradient(to right, rgba(0,0,0,1),rgba(0,0,0,.5),rgba(0,0,0,1));
     }
+    /*Bigger for small screens*/
     #videoContainer{
         width: 70%;
     }

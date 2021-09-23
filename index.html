@@ -3,12 +3,14 @@
         <title>MONEY!</title>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- Load Anton font for Title and Roboto for everything else --> 
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
         <script src="navigation.js"></script>
     </head>
     <body onscroll="scrollUpdate()">
+        <!-- Block one with title and description -->
         <div id="blockOne">
             <div class="leftGradient">
                 <div id="title">
@@ -19,6 +21,7 @@
                 </div>
             </div>
         </div>
+        <!-- Header bar which contains navigation buttons -->
         <div id="header">
             <ul>
                 <li><image onclick="move('home')" class="active" id="homeImage" src="homeactive.png"></li>
@@ -28,12 +31,14 @@
                 <li><div id="comingSoon" onclick="move('coming soon')">Coming Soon</div></li>
             </ul>
         </div>
+        <!-- Block two which contains the video and all its wrappers to center it's container -->
         <div id="blockTwo">
             <div class="leftGradient">
                 <div class = "wrappert">
                     <div class = "wrapper">
                         <div id="videoContainer">
                             <div id="videoBox">
+                                <!-- Actual video -->
                                 <div id="video">
                                     <video width="100%" height="100%" controls>
                                         <source src="Money.mp4" type="video/mp4">
@@ -45,13 +50,17 @@
                 </div>
             </div>
         </div>
+        <!-- Block three which contains all the actors, their profile pics, and their information -->
         <div id="blockThree">
+            <!-- One actor -->
             <div class="actor">
+                <!-- Profile pic -->
                 <div class="profilePicColumn">
                     <div class="profilePicContainer">
                         <image class="profilePic" src="IMG_7618.JPG">
                     </div>
                 </div>
+                <!-- Actor Info -->
                 <div class="actorInfoColumn">
                     <p class="actorName">Cole Beasley</p>
                     <p class="actorBio">Cole Beasley is a computer science major and interactive media minor at NYUAD, obviously for the amount of money in these fields. Absolutely obsessed with money, Cole stars in this film as just another human connected to his peers with the shared principles of the glory of cash.</p>
@@ -91,6 +100,7 @@
                 </div>
             </div>
         </div>
+        <!-- Block four containing three reviews of the film -->
         <div id="blockFour">
             <div class="quote left top">
                 <div class="quoteWords">"Take my money, hands down show stopper"</div>
@@ -105,6 +115,7 @@
                 <div class="quoteAuthor">-Also Cole Beasley</div>
             </div>
         </div>
+        <!-- Block five containing the movie poster for the second film and a short description -->
         <div id="blockFive">
             <div id="moneyTwoPoster">
                 <img id="moneyTwoImage" src="money2.png">

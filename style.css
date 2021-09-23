@@ -1,12 +1,16 @@
+/* Reset body margin and padding */
 body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-image: url('MoneyCoverImage.png');
+    /* Background image + styling */
+    background-image: url('MoneyCoverImage.png'); 
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
 }
+
+/* Header sticks to top of screen */
 #header{
     height:100px;
     width: 100%;
@@ -16,11 +20,13 @@ body{
     top: 0;
     z-index:100;
 }
+
+/* 5 Blocks styling */
 #blockOne{
     height: 100%;
 }
 #blockTwo{
-    height: calc(100% - 100px);
+    height: calc(100% - 100px); /* -100px for header offset */
     position: relative;
 }
 #blockThree{
@@ -38,6 +44,8 @@ body{
     background-color: #6C6C6C;
     text-align: center;
 }
+
+/* Block one contents */
 
 .leftGradient{
     width:100%;
@@ -70,7 +78,7 @@ body{
     position:absolute;
 }
 
-
+/* Header contents */
 #homeImage{
     height: 60px;
     padding: 20px 30px;
@@ -93,17 +101,21 @@ li div {
     font-size: 2vh;
 }
   
+/* When hovered over make the background the active color*/
 li div:hover:not(.active) {
     background-color: #D6D6D6;
 }
+/* Also for the image*/
 li #homeImage:hover:not(.active) {
     background-color: #D6D6D6;
 }
+/* Set text color for active ones brighter */
 .active {
     color: #D6D6D6;
 }
 
-
+/* Block 2 contents */
+/* Two wrappers to center a position relative container, adapted from w3 school */ 
 .wrappert {
     height: 100%; 
     width: 100%;
@@ -115,14 +127,17 @@ li #homeImage:hover:not(.active) {
     display: table-cell;
     text-align:center
 }
+/* Controls width of video*/
 #videoContainer{
     display:inline-block;
     position:relative;
     width: 50%;
 }
+/* Controls aspect ratio of video container*/
 #videoBox{
     margin-top:56.25%; /* 16/9 */
 }
+/* Fill video container with video*/
 #video{
     position: absolute;
     top: 0;
@@ -132,6 +147,7 @@ li #homeImage:hover:not(.active) {
     background-color: black;
 }
 
+/* Block 3 contents */
 .actor{
     height: 25%;
     width: 100%;
@@ -174,6 +190,7 @@ li #homeImage:hover:not(.active) {
     margin-right:10%;
 }
 
+/* Block 4 contents*/
 .quote{
     width:40%;
     height: 30%;
@@ -215,6 +232,7 @@ li #homeImage:hover:not(.active) {
     right:10%;
 }
 
+/* Block 5 contents*/
 #moneyTwoPoster{
     height:60%;
     padding-top:5%;
